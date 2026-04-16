@@ -1,6 +1,4 @@
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Jonsteinn123/lamah-ice-project.git
-git push -u origin main
+import pandas as pd
+
+df = pd.read_csv(r"SLÓÐIN\AÐ\meteorological_data\ID_91.csv", nrows=3)
+print(df)

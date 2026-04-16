@@ -1,0 +1,7 @@
+License: 
+
+All data except for the streamflow measurements are subject to the CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/). 
+The streamflow data is subject to the CC BY-NC 4.0 (creativecommons.org/licenses/by-nc/4.0/). The streamflow data cannot be used for commercial purposes. 
+
+Users can share and adapt the dataset only if appropriate credit is given (the ESSD data description paper is cited, the version of the dataset 
+and all data sources are listed which are declared in the folder "Info") and any changes are clearly indicated, and a link to the original license is provided.

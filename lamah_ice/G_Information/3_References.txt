@@ -1,0 +1,43 @@
+The LamaH-Ice dataset is based on the following datasets:
+
+Arnalds, Ó. and Óskarsson, H.: Íslenskt Jarðvegskort / A soil map for Iceland, Náttúrufræðingurinn, 78, 107–121, 2009.
+
+Broxton, P. D., Zeng, X., Scheftic, W., and Troch P. A.: A MODIS-Based Global 1-km Maximum Green Vegetation Fraction Dataset, Journal of applied Meteorology and Climatology, 53, 1996–2004, https://doi.org/10.1175/JAMC-D-13-0356.1, 2014. 
+
+CORINE: CORINE Land Cover 2018: European Environment Agency [data set], Copenhagen, Denmark, available at https://land.copernicus.eu/pan-european/corine-land-cover, (last access: 25.08.2023), 2018.
+
+EEA: EU-Hydro – River Network Database, Version 1.2, European Environment Agency under the framework of the Copernicus programme, available at: https://land.copernicus.eu/imagery-in-situ/eu-hydro/eu-hydro-river-network-database (last access: 30.06.2022), 2019.
+
+ESDB: The European Soil Database distribution version 2.0, European Commission and the European Soil Bureau Network, CD-ROM, EUR 19945 EN, 2004.
+
+Friedl, M. and Sulla-Menashe, D.: MCD12Q1 MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 500m SIN Grid V006 [Data set], NASA EOSDIS Land Processes DAAC, available at: https://doi.org/10.5067/MODIS/MCD12Q1.006 (last access: 12.03.2020), 2019.
+
+Gunnarsson, A., Gardarsson, S. M., and Sveinsson, Ó. G. B.: Icelandic snow cover characteristics derived from a gap-filled MODIS daily snow cover product, Hydrol Earth Syst Sci, 23, 3021–3036, https://doi.org/10.5194/hess-23-3021-2019, 2019.
+
+Gunnarsson, A., Gardarsson, S. M., Pálsson, F., Jóhannesson, T., and Sveinsson, Ó. G. B.: Annual and inter-annual variability and trends of albedo of Icelandic glaciers, Cryosphere, 15, 547–570, https://doi.org/10.5194/tc-15-547-2021, 2021.
+
+Hartmann, J. and Moosdorf, N.: The new global lithological map database GLiM: A representation of rock properties at the Earth surface, Geochem. Geophy. Geosy., 13, 1–37, https://doi.org/10.1029/2012GC004370, 2012.
+
+Hannesdóttir, H., Sigurðsson, O., Þrastarson, R. H., Guðmundsson, S., Belart, J. M. C., Pálsson, F., Magnússon, E., Víkingsson, S., Kaldal, I., and Jóhannesson, T.: A national glacier inventory and variations in glacier extent in Iceland from the Little Ice Age maximum to 2019, Jökull, https://doi.org/10.33799/jokull2020.70.001, 2020.
+
+Hiederer, R.: Mapping Soil Properties for Europe - Spatial Representation of Soil Database Attributes, Luxembourg: Publications Office of the European Union, 47pp, EUR26082EN Scientific and Technical Research series, ISSN 1831- 9424, https://doi.org/10.2788/94128, 2013a.
+
+Hiederer, R.: Mapping Soil Typologies - Spatial Decision Support Applied to European Soil Database, Luxembourg: Publications Office of the European Union, 147pp, EUR25932EN Scientific and Technical Research series, ISSN 1831–9424, https://doi.org/doi:10.2788/8728, 2013b.
+
+Icelandic Institute of Natural History: Geological map of Iceland [data set], available at https://gatt.lmi.is/geonetwork/srv/eng/catalog.search#/metadata/%7B005FFDAD-69A1-4385-B16F-FD31B960FE33%7D (last access: 30 June 2022), 2014.
+
+IMO: Icelandic Meteorological Office: Streamflow measurements (Data received 10.01.2022), 2022.
+
+Muñoz Sabater, J., Dutra, E., Agustí-Panareda, A., Albergel, C., Arduini, G., Balsamo, G., Boussetta, S., Choulga, M., Harrigan, S., Hersbach, H., Martens, B., Miralles, D. G., Piles, M., Rodríguez-Fernández, N. J., Zsoter, E., Buontempo, C., and Thépaut, J. N.: ERA5-Land: A state-of-the-art global reanalysis dataset for land applications, Earth Syst. Sci. Data Discuss. [preprint], in review, https://doi.org/10.5194/essd-2021-82, 2021.
+
+Muñoz Sabater, J.: ERA5-Land hourly data from 1981 to present, Copernicus Climate Change Service (C3S) Climate Data Store (CDS), available at: https://doi.org/10.24381/cds.e2161bac (last access: 22.10.2020), 2019a.
+
+Myneni, R., Knyazikhin, Y., and Park, T.: MCD15A3H MODIS/Terra+Aqua Leaf Area Index/FPAR 4-day L4 Global 500m SIN Grid V006 [Data set], NASA EOSDIS Land Processes DAAC, available at: https://doi.org/10.5067/MODIS/MCD15A3H.006 (last access: 12.03.2020), 2015.
+
+National Land Survey of Iceland: IslandsDEM version 1.0 [data set], available at, https://gatt.lmi.is/geonetwork/srv/eng/catalog.search#/metadata/e6712430-a63c-4ae5-9158-c89d16da6361, 2020.
+
+NPC: National Power Company of Iceland: Streamflow measurements (Data received 10.01.2021), 2021.
+
+Pelletier, J. D., Broxton, P. D., Hazenberg, P., Zeng, X., Troch, P. A., Niu, G., Williams, Z. C., Brunke, M. A., and Gochis, D.: Global 1-km Gridded Thickness of Soil, Regolith, and Sedimentary Deposit Layers. ORNL DAAC, Oak Ridge, Tennessee, USA, https://doi.org/10.3334/ORNLDAAC/1304, 2016.
+
+Vermote, E.: MOD09Q1 MODIS/Terra Surface Reflectance 8-Day L3 Global 250m SIN Grid V006 [Data set], NASA EOSDIS Land Processes DAAC, available at: https://doi.org/10.5067/MODIS/MOD09Q1.006 (last access: 12.03.2020), 2015.
