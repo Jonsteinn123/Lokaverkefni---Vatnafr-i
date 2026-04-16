@@ -1,0 +1,5 @@
+Additional information regarding the time series.
+
+1. Unit of runoff data is m3/s. Conversion to runoff heights can be performed using the catchment area provided (attribute “area_calc” in Appendix A of the accompanying paper). 
+   The units of the meteorological time series can be obtained from Appendix A of the accompanying paper.
+2. The timezone for all time series is GMT.

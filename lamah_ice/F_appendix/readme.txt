@@ -1,0 +1,14 @@
+This folder contains the following files:
+- 1_codes (a copy of the LamaH-Ice GitHub repository (https://github.com/hhelgason/LamaH-Ice)
+    - catchment_attributes
+        - code used to calculate catchment attributes in LamaH-Ice
+    - timeseries
+        - code used to assemble the timeseries in LamaH-Ice
+    - watershed_delineation
+        - code used to delineate watersheds for gauges in LamaH-Ice
+    - plots
+        - code used to plot figures in the LamaH-Ice paper
+- 2_shapefiles (EPSG 3057)
+    - ERA5L_grid_isn93.shp (The ERA5-Land grid)
+- 3_CORINE_landcover
+- 4_QGIS_and_GEE_processing_instructions

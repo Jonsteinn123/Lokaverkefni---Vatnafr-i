@@ -1,0 +1,87 @@
+Folder structure:
+
+- A_basins_total_upstrm (basin delineation A, see article section 3)
+  - 1_attributes
+    - Catchment_attributes.csv
+    - meteorological_data_means_1981_to_2018.csv
+    - meteorological_data_means_1991_to_2018.csv
+    - Water_balance.csv
+    - Water_balance_unfiltered.csv
+  - 2_timeseries
+    - annual
+      - corine_land_cover_timeseries
+          - CORINE land cover timeseries for all catchments
+      - glacier_timeseries
+          - Glacier areal extent (km2 and basin fraction) and glacier mass balance for all glaciated catchments
+    - daily
+      - meteorological_data
+          - meteorological time series for all catchments
+      - modis_fractional_snow_cover_and_glacier_albedo
+          - MODIS fractional snow cover (and glacier albedo) for all (glaciated) catchments
+  - 3_shapefiles (EPSG 3057)
+    - Basins_A.shp
+    - glaciers_in_catchments.shp
+
+- B_basins_intermediate_all (basin delineation B, see article section 3)
+  - 1_attributes
+    - Catchment_attributes.csv
+    - Gauge_hierarchy.csv
+  - 2_timeseries
+    - annual
+      - corine_land_cover_timeseries
+          - CORINE land cover timeseries for all (intermediate) catchments
+    - daily
+      - meteorological_data
+          - meteorological time series for all (intermediate) catchments
+      - modis_fractional_snow_cover_and_glacier_albedo
+          - MODIS fractional snow cover for all (intermediate) catchments
+  - 3_shapefiles (EPSG 3057)
+    - Basins_B.shp
+
+- C_basins_intermediate_lowimp (basin delineation C, see article section 3)
+  - 1_attributes
+    - Catchment_attributes.csv
+    - Gauge_hierarchy.csv
+  - 2_timeseries
+    - annual
+      - corine_land_cover_timeseries
+          - CORINE land cover timeseries for all (intermediate) catchments with no or low degree of impact
+    - daily
+      - meteorological_data
+          - meteorological time series for all (intermediate) catchments with no or low degree of impact
+      - modis_fractional_snow_cover_and_glacier_albedo 
+          - MODIS fractional snow cover for all (intermediate) catchments with no or low degree of impact
+  - 3_shapefiles (EPSG 3057)
+    - Basins_C.shp
+
+- D_gauges
+  - 1_attributes
+    - Gauge_attributes.csv (To ensure Icelandic characters are displayed correctly when opening the Gauge_attributes.csv file, please use UTF-8 encoding).
+    - hydro_indices_1981_2018.csv (calculated using filtered streamflow data for the period from the first 1 October in the individual time series after 1981 to 30 September 2018 using meteorological data from RAV-II)
+    - hydro_indices_1981_2018_unfiltered.csv (calculated using raw streamflow data for the period from the first 1 October in the individual time series after 1981 to 30 September 2018 using meteorological data from RAV-II)
+  - 2_timeseries
+    - daily
+      - runoff time series for all gauges
+    - daily_filtered
+      - filtered runoff time series for all gauges (see Article section 4.1)
+  - 3_shapefiles (EPSG 3057)
+    - gauges.shp
+
+- E_stream_network (EPSG 3057)
+  - _Info.txt
+  - EU-Hydro_network.shp
+
+- F_appendix
+  - 1_codes (a copy of the LamaH-Ice GitHub repository (https://github.com/hhelgason/LamaH-Ice)
+      - catchment_attributes
+          - code used to calculate catchment attributes in LamaH-Ice
+      - timeseries
+          - code used to assemble the timeseries in LamaH-Ice
+      - watershed_delineation
+          - code used to delineate watersheds for gauges in LamaH-Ice
+      - plots
+          - code used to plot figures in the LamaH-Ice paper
+  - 2_shapefiles (EPSG 3057)
+      - ERA5L_grid_isn93.shp (The ERA5-Land grid)
+  - 3_CORINE_landcover
+  - 4_QGIS_and_GEE_processing_instructions
